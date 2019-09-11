@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TFKit-Objc"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "iOS开发中一些常用的基类与类目工具."
 
   # This description is used to generate tags and improve search results.
@@ -90,18 +90,18 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TFKit-Objc/TFKit-Objc/TFKit-Objc/*"
+  s.source_files  = "TFKit-Objc/TFKit-Objc/*"
   
   s.subspec 'Category' do |ss|
-  ss.source_files = 'TFKit-Objc/TFKit-Objc/TFKit-Objc/Category/*'
+  ss.source_files = 'TFKit-Objc/TFKit-Objc/Category/*'
   end
 
   s.subspec 'BaseClass' do |ss|
-  ss.source_files = 'TFKit-Objc/TFKit-Objc/TFKit-Objc/BaseClass/*'
+  ss.source_files = 'TFKit-Objc/TFKit-Objc/BaseClass/*'
   end
 
   s.subspec 'Utils' do |ss|
-  ss.source_files = 'TFKit-Objc/TFKit-Objc/TFKit-Objc/Utils/*'
+  ss.source_files = 'TFKit-Objc/TFKit-Objc/Utils/*'
   end
 
   # s.exclude_files = "Classes/Exclude"

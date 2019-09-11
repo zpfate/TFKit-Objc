@@ -9,11 +9,7 @@
 #ifndef TF_ConfigHeader_h
 #define TF_ConfigHeader_h
 
-#import "NSData+TFKit.h"
-#import "NSString+TFKit.h"
-#import "UIView+TFKit.h"
-#import "UIView+Toast.h"
-#import "TF_FileUtils.h"
+
 
 
 // UI相关

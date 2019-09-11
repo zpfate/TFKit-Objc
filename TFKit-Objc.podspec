@@ -90,18 +90,18 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TFKit-Objc/TFKit-Objc/TFKit/*"
+  s.source_files  = "TFKit-Objc/TFKit-Objc/TFKit-Objc/*"
   
   s.subspec 'Category' do |ss|
-  ss.source_files = 'TFKit-Objc/TFKit-Objc/TFKit/Category/*'
+  ss.source_files = 'TFKit-Objc/TFKit-Objc/TFKit-Objc/Category/*'
   end
 
   s.subspec 'BaseClass' do |ss|
-  ss.source_files = 'TFKit-Objc/TFKit-Objc/TFKit/BaseClass/*'
+  ss.source_files = 'TFKit-Objc/TFKit-Objc/TFKit-Objc/BaseClass/*'
   end
 
   s.subspec 'Utils' do |ss|
-  ss.source_files = 'TFKit-Objc/TFKit-Objc/TFKit/Utils/*'
+  ss.source_files = 'TFKit-Objc/TFKit-Objc/TFKit-Objc/Utils/*'
   end
 
   # s.exclude_files = "Classes/Exclude"

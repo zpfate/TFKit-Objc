@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B2AF92823287B3B006FC66F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF92723287B3B006FC66F /* AppDelegate.m */; };
+		5B2AF92B23287B3B006FC66F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF92A23287B3B006FC66F /* ViewController.m */; };
+		5B2AF92E23287B3B006FC66F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2AF92C23287B3B006FC66F /* Main.storyboard */; };
+		5B2AF93023287B3C006FC66F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2AF92F23287B3C006FC66F /* Assets.xcassets */; };
+		5B2AF93323287B3C006FC66F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2AF93123287B3C006FC66F /* LaunchScreen.storyboard */; };
+		5B2AF93623287B3C006FC66F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF93523287B3C006FC66F /* main.m */; };
+		5B2AF95C23287EF0006FC66F /* UIColor+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF93F23287EF0006FC66F /* UIColor+TFKit.m */; };
+		5B2AF95D23287EF0006FC66F /* NSData+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF94023287EF0006FC66F /* NSData+TFKit.m */; };
+		5B2AF95E23287EF0006FC66F /* UIView+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF94123287EF0006FC66F /* UIView+TFKit.m */; };
+		5B2AF95F23287EF0006FC66F /* UINavigationController+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF94223287EF0006FC66F /* UINavigationController+TFKit.m */; };
+		5B2AF96023287EF0006FC66F /* UIDevice+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF94523287EF0006FC66F /* UIDevice+TFKit.m */; };
+		5B2AF96123287EF0006FC66F /* NSDictionary+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF94823287EF0006FC66F /* NSDictionary+TFKit.m */; };
+		5B2AF96223287EF0006FC66F /* NSString+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF94C23287EF0006FC66F /* NSString+TFKit.m */; };
+		5B2AF96323287EF0006FC66F /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF94E23287EF0006FC66F /* UIView+Toast.m */; };
+		5B2AF96423287EF0006FC66F /* TF_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF95023287EF0006FC66F /* TF_Model.m */; };
+		5B2AF96523287EF0006FC66F /* TF_NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF95123287EF0006FC66F /* TF_NavigationViewController.m */; };
+		5B2AF96623287EF0006FC66F /* TF_TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF95223287EF0006FC66F /* TF_TextView.m */; };
+		5B2AF96723287EF0006FC66F /* TF_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF95623287EF0006FC66F /* TF_View.m */; };
+		5B2AF96823287EF0006FC66F /* TF_FileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF95B23287EF0006FC66F /* TF_FileUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B2AF92323287B3B006FC66F /* TFKit-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TFKit-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2AF92623287B3B006FC66F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B2AF92723287B3B006FC66F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B2AF92923287B3B006FC66F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B2AF92A23287B3B006FC66F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B2AF92D23287B3B006FC66F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B2AF92F23287B3C006FC66F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B2AF93223287B3C006FC66F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B2AF93423287B3C006FC66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2AF93523287B3C006FC66F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B2AF93D23287EF0006FC66F /* TF_Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF_Macros.h; sourceTree = "<group>"; };
+		5B2AF93F23287EF0006FC66F /* UIColor+TFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TFKit.m"; sourceTree = "<group>"; };
+		5B2AF94023287EF0006FC66F /* NSData+TFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TFKit.m"; sourceTree = "<group>"; };
+		5B2AF94123287EF0006FC66F /* UIView+TFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TFKit.m"; sourceTree = "<group>"; };
+		5B2AF94223287EF0006FC66F /* UINavigationController+TFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TFKit.m"; sourceTree = "<group>"; };
+		5B2AF94323287EF0006FC66F /* NSDictionary+TFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TFKit.h"; sourceTree = "<group>"; };
+		5B2AF94423287EF0006FC66F /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		5B2AF94523287EF0006FC66F /* UIDevice+TFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TFKit.m"; sourceTree = "<group>"; };
+		5B2AF94623287EF0006FC66F /* NSString+TFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TFKit.h"; sourceTree = "<group>"; };
+		5B2AF94723287EF0006FC66F /* UIColor+TFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TFKit.h"; sourceTree = "<group>"; };
+		5B2AF94823287EF0006FC66F /* NSDictionary+TFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TFKit.m"; sourceTree = "<group>"; };
+		5B2AF94923287EF0006FC66F /* UINavigationController+TFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TFKit.h"; sourceTree = "<group>"; };
+		5B2AF94A23287EF0006FC66F /* NSData+TFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TFKit.h"; sourceTree = "<group>"; };
+		5B2AF94B23287EF0006FC66F /* UIView+TFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TFKit.h"; sourceTree = "<group>"; };
+		5B2AF94C23287EF0006FC66F /* NSString+TFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TFKit.m"; sourceTree = "<group>"; };
+		5B2AF94D23287EF0006FC66F /* UIDevice+TFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TFKit.h"; sourceTree = "<group>"; };
+		5B2AF94E23287EF0006FC66F /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		5B2AF95023287EF0006FC66F /* TF_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF_Model.m; sourceTree = "<group>"; };
+		5B2AF95123287EF0006FC66F /* TF_NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF_NavigationViewController.m; sourceTree = "<group>"; };
+		5B2AF95223287EF0006FC66F /* TF_TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF_TextView.m; sourceTree = "<group>"; };
+		5B2AF95323287EF0006FC66F /* TF_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF_View.h; sourceTree = "<group>"; };
+		5B2AF95423287EF0006FC66F /* TF_NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF_NavigationViewController.h; sourceTree = "<group>"; };
+		5B2AF95523287EF0006FC66F /* TF_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF_Model.h; sourceTree = "<group>"; };
+		5B2AF95623287EF0006FC66F /* TF_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF_View.m; sourceTree = "<group>"; };
+		5B2AF95723287EF0006FC66F /* TF_TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF_TextView.h; sourceTree = "<group>"; };
+		5B2AF95823287EF0006FC66F /* TFKit-Objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TFKit-Objc.h"; sourceTree = "<group>"; };
+		5B2AF95A23287EF0006FC66F /* TF_FileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF_FileUtils.h; sourceTree = "<group>"; };
+		5B2AF95B23287EF0006FC66F /* TF_FileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF_FileUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B2AF92023287B3B006FC66F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B2AF91A23287B3B006FC66F = {
+			isa = PBXGroup;
+			children = (
+				5B2AF92523287B3B006FC66F /* TFKit-Objc */,
+				5B2AF92423287B3B006FC66F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B2AF92423287B3B006FC66F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B2AF92323287B3B006FC66F /* TFKit-Objc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B2AF92523287B3B006FC66F /* TFKit-Objc */ = {
+			isa = PBXGroup;
+			children = (
+				5B2AF93C23287EF0006FC66F /* TFKit-Objc */,
+				5B2AF92623287B3B006FC66F /* AppDelegate.h */,
+				5B2AF92723287B3B006FC66F /* AppDelegate.m */,
+				5B2AF92923287B3B006FC66F /* ViewController.h */,
+				5B2AF92A23287B3B006FC66F /* ViewController.m */,
+				5B2AF92C23287B3B006FC66F /* Main.storyboard */,
+				5B2AF92F23287B3C006FC66F /* Assets.xcassets */,
+				5B2AF93123287B3C006FC66F /* LaunchScreen.storyboard */,
+				5B2AF93423287B3C006FC66F /* Info.plist */,
+				5B2AF93523287B3C006FC66F /* main.m */,
+			);
+			path = "TFKit-Objc";
+			sourceTree = "<group>";
+		};
+		5B2AF93C23287EF0006FC66F /* TFKit-Objc */ = {
+			isa = PBXGroup;
+			children = (
+				5B2AF95823287EF0006FC66F /* TFKit-Objc.h */,
+				5B2AF93D23287EF0006FC66F /* TF_Macros.h */,
+				5B2AF93E23287EF0006FC66F /* Category */,
+				5B2AF94F23287EF0006FC66F /* BaseClass */,
+				5B2AF95923287EF0006FC66F /* Utils */,
+			);
+			path = "TFKit-Objc";
+			sourceTree = "<group>";
+		};
+		5B2AF93E23287EF0006FC66F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5B2AF94A23287EF0006FC66F /* NSData+TFKit.h */,
+				5B2AF94023287EF0006FC66F /* NSData+TFKit.m */,
+				5B2AF94323287EF0006FC66F /* NSDictionary+TFKit.h */,
+				5B2AF94823287EF0006FC66F /* NSDictionary+TFKit.m */,
+				5B2AF94623287EF0006FC66F /* NSString+TFKit.h */,
+				5B2AF94C23287EF0006FC66F /* NSString+TFKit.m */,
+				5B2AF94723287EF0006FC66F /* UIColor+TFKit.h */,
+				5B2AF93F23287EF0006FC66F /* UIColor+TFKit.m */,
+				5B2AF94D23287EF0006FC66F /* UIDevice+TFKit.h */,
+				5B2AF94523287EF0006FC66F /* UIDevice+TFKit.m */,
+				5B2AF94923287EF0006FC66F /* UINavigationController+TFKit.h */,
+				5B2AF94223287EF0006FC66F /* UINavigationController+TFKit.m */,
+				5B2AF94B23287EF0006FC66F /* UIView+TFKit.h */,
+				5B2AF94123287EF0006FC66F /* UIView+TFKit.m */,
+				5B2AF94423287EF0006FC66F /* UIView+Toast.h */,
+				5B2AF94E23287EF0006FC66F /* UIView+Toast.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5B2AF94F23287EF0006FC66F /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				5B2AF95523287EF0006FC66F /* TF_Model.h */,
+				5B2AF95023287EF0006FC66F /* TF_Model.m */,
+				5B2AF95423287EF0006FC66F /* TF_NavigationViewController.h */,
+				5B2AF95123287EF0006FC66F /* TF_NavigationViewController.m */,
+				5B2AF95723287EF0006FC66F /* TF_TextView.h */,
+				5B2AF95223287EF0006FC66F /* TF_TextView.m */,
+				5B2AF95323287EF0006FC66F /* TF_View.h */,
+				5B2AF95623287EF0006FC66F /* TF_View.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		5B2AF95923287EF0006FC66F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5B2AF95A23287EF0006FC66F /* TF_FileUtils.h */,
+				5B2AF95B23287EF0006FC66F /* TF_FileUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B2AF92223287B3B006FC66F /* TFKit-Objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2AF93923287B3C006FC66F /* Build configuration list for PBXNativeTarget "TFKit-Objc" */;
+			buildPhases = (
+				5B2AF91F23287B3B006FC66F /* Sources */,
+				5B2AF92023287B3B006FC66F /* Frameworks */,
+				5B2AF92123287B3B006FC66F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TFKit-Objc";
+			productName = "TFKit-Objc";
+			productReference = 5B2AF92323287B3B006FC66F /* TFKit-Objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B2AF91B23287B3B006FC66F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Twisted Fate";
+				TargetAttributes = {
+					5B2AF92223287B3B006FC66F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 5B2AF91E23287B3B006FC66F /* Build configuration list for PBXProject "TFKit-Objc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B2AF91A23287B3B006FC66F;
+			productRefGroup = 5B2AF92423287B3B006FC66F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B2AF92223287B3B006FC66F /* TFKit-Objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B2AF92123287B3B006FC66F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2AF93323287B3C006FC66F /* LaunchScreen.storyboard in Resources */,
+				5B2AF93023287B3C006FC66F /* Assets.xcassets in Resources */,
+				5B2AF92E23287B3B006FC66F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B2AF91F23287B3B006FC66F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2AF95D23287EF0006FC66F /* NSData+TFKit.m in Sources */,
+				5B2AF95E23287EF0006FC66F /* UIView+TFKit.m in Sources */,
+				5B2AF96223287EF0006FC66F /* NSString+TFKit.m in Sources */,
+				5B2AF96823287EF0006FC66F /* TF_FileUtils.m in Sources */,
+				5B2AF96523287EF0006FC66F /* TF_NavigationViewController.m in Sources */,
+				5B2AF95C23287EF0006FC66F /* UIColor+TFKit.m in Sources */,
+				5B2AF96623287EF0006FC66F /* TF_TextView.m in Sources */,
+				5B2AF96123287EF0006FC66F /* NSDictionary+TFKit.m in Sources */,
+				5B2AF96723287EF0006FC66F /* TF_View.m in Sources */,
+				5B2AF96323287EF0006FC66F /* UIView+Toast.m in Sources */,
+				5B2AF92B23287B3B006FC66F /* ViewController.m in Sources */,
+				5B2AF96423287EF0006FC66F /* TF_Model.m in Sources */,
+				5B2AF95F23287EF0006FC66F /* UINavigationController+TFKit.m in Sources */,
+				5B2AF93623287B3C006FC66F /* main.m in Sources */,
+				5B2AF96023287EF0006FC66F /* UIDevice+TFKit.m in Sources */,
+				5B2AF92823287B3B006FC66F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B2AF92C23287B3B006FC66F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B2AF92D23287B3B006FC66F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B2AF93123287B3C006FC66F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B2AF93223287B3C006FC66F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B2AF93723287B3C006FC66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B2AF93823287B3C006FC66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B2AF93A23287B3C006FC66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83J8888V77;
+				INFOPLIST_FILE = "TFKit-Objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TwistedFate.www.TFKit-Objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B2AF93B23287B3C006FC66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83J8888V77;
+				INFOPLIST_FILE = "TFKit-Objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TwistedFate.www.TFKit-Objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B2AF91E23287B3B006FC66F /* Build configuration list for PBXProject "TFKit-Objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2AF93723287B3C006FC66F /* Debug */,
+				5B2AF93823287B3C006FC66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2AF93923287B3C006FC66F /* Build configuration list for PBXNativeTarget "TFKit-Objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2AF93A23287B3C006FC66F /* Debug */,
+				5B2AF93B23287B3C006FC66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B2AF91B23287B3B006FC66F /* Project object */;
+}

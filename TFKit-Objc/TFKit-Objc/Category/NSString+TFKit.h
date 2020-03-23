@@ -12,8 +12,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (TFKit)
 
+
+/// NSDate转NSString
+/// @param date 日期
 + (NSString *)tf_stringFromDate:(NSDate *)date;
 
+
+/// MD%
 - (NSString *)tf_MD5String;
 
 @end

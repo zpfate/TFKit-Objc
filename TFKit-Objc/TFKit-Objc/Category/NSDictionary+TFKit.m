@@ -11,7 +11,7 @@
 @implementation NSDictionary (TFKit)
 
 
-- (NSString *)tf_stringForKey:(id)key {
+- (NSString *)tf_stringForKey:(NSString *)key {
     
     id object = [self objectForKey:key];
     if ((object == nil) ||[object isEqual:[NSNull null]]) {
@@ -49,13 +49,12 @@
     
 }
 
-- (NSArray *)tf_arrayForKey:(id)key {
+- (NSArray *)tf_arrayForKey:(NSString *)key {
     
     id object = [self objectForKey:key];
     if (object == nil || [object isEqual:[NSNull null]]) {
         object = @[];
     }
-    
     if (![object isKindOfClass:[NSArray class]]) {
         // Data Error Format
         object = @[];

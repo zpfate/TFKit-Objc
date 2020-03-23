@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIColor (TFKit)
 
+
+/// 16进制字符串转颜色
+/// @param string 16进制字符串
 + (UIColor *)tf_colorWithHexString:(NSString *)string;
 
 @end

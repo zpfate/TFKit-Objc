@@ -12,26 +12,27 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (TFKit)
 
+/// 高度
 @property (nonatomic, assign) CGFloat tf_height;
-
+/// 宽度
 @property (nonatomic, assign) CGFloat tf_width;
-
+/// y轴起始点
 @property (nonatomic, assign) CGFloat tf_top;
-
+/// x轴起始点
 @property (nonatomic, assign) CGFloat tf_left;
-
+/// y轴结束点
 @property (nonatomic, assign) CGFloat tf_bottom;
-
+///x轴结束点
 @property (nonatomic, assign) CGFloat tf_right;
-
+/// x轴中心
 @property (nonatomic, assign) CGFloat tf_centerX;
-
+/// y轴中心
 @property (nonatomic, assign) CGFloat tf_centerY;
 
-// 移除所有子视图
+/// 移除所有子视图
 - (void)tf_removeAllSubviews;
 
-// 持有当前View的Controller
+/// 持有当前View的Controller
 - (UIViewController *)tf_getCurrentViewController;
 
 @end

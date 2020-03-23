@@ -12,13 +12,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSDictionary (TFKit)
 
-- (NSString *)tf_stringForKey:(id)key;
-
+/// 返回NSString
+/// @param key key
+- (NSString *)tf_stringForKey:(NSString *)key;
+/// 返回NSInteger
+/// @param key key
 - (NSInteger)tf_integerForKey:(NSString *)key;
-
+/// 返回BOOL
+/// @param key key
 - (BOOL)tf_boolForKey:(NSString *)key;
-
-- (NSArray *)tf_arrayForKey:(id)key;
+/// 返回数组
+/// @param key key
+- (NSArray *)tf_arrayForKey:(NSString *)key;
 
 @end
 

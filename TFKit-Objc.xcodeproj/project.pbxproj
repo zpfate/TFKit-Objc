@@ -26,6 +26,7 @@
 		5B2AF96623287EF0006FC66F /* TF_TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF95223287EF0006FC66F /* TF_TextView.m */; };
 		5B2AF96723287EF0006FC66F /* TF_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF95623287EF0006FC66F /* TF_View.m */; };
 		5B2AF96823287EF0006FC66F /* TF_FileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF95B23287EF0006FC66F /* TF_FileUtils.m */; };
+		5B80BE472428948E00E50009 /* UIScrollView+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B80BE462428948E00E50009 /* UIScrollView+TFKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,8 @@
 		5B2AF95823287EF0006FC66F /* TFKit-Objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TFKit-Objc.h"; sourceTree = "<group>"; };
 		5B2AF95A23287EF0006FC66F /* TF_FileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF_FileUtils.h; sourceTree = "<group>"; };
 		5B2AF95B23287EF0006FC66F /* TF_FileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF_FileUtils.m; sourceTree = "<group>"; };
+		5B80BE452428948E00E50009 /* UIScrollView+TFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TFKit.h"; sourceTree = "<group>"; };
+		5B80BE462428948E00E50009 /* UIScrollView+TFKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TFKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,8 @@
 				5B2AF94523287EF0006FC66F /* UIDevice+TFKit.m */,
 				5B2AF94923287EF0006FC66F /* UINavigationController+TFKit.h */,
 				5B2AF94223287EF0006FC66F /* UINavigationController+TFKit.m */,
+				5B80BE452428948E00E50009 /* UIScrollView+TFKit.h */,
+				5B80BE462428948E00E50009 /* UIScrollView+TFKit.m */,
 				5B2AF94B23287EF0006FC66F /* UIView+TFKit.h */,
 				5B2AF94123287EF0006FC66F /* UIView+TFKit.m */,
 				5B2AF94423287EF0006FC66F /* UIView+Toast.h */,
@@ -255,6 +260,7 @@
 				5B2AF92B23287B3B006FC66F /* ViewController.m in Sources */,
 				5B2AF96423287EF0006FC66F /* TF_Model.m in Sources */,
 				5B2AF95F23287EF0006FC66F /* UINavigationController+TFKit.m in Sources */,
+				5B80BE472428948E00E50009 /* UIScrollView+TFKit.m in Sources */,
 				5B2AF93623287B3C006FC66F /* main.m in Sources */,
 				5B2AF96023287EF0006FC66F /* UIDevice+TFKit.m in Sources */,
 				5B2AF92823287B3B006FC66F /* AppDelegate.m in Sources */,

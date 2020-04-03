@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)tf_stringFromDate:(NSDate *)date;
 
 
-/// MD%
+/// MD5
 - (NSString *)tf_MD5String;
 
 @end

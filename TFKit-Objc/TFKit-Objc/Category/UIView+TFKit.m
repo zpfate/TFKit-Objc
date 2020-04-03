@@ -68,7 +68,7 @@
     self.frame = newframe;
 }
 
-//  返回X + width
+///  返回X + width
 - (CGFloat)tf_right {
     return self.frame.origin.x + self.frame.size.width;
 }
@@ -96,6 +96,20 @@
     
 }
 
+/// 网传该方法性能差
+- (void)tf_setCorners:(UIRectCorner)corners radius:(CGFloat)radius {
+    if (@available(iOS 11.0, *)) {
+        self.layer.cornerRadius = radius;
+        self.layer.maskedCorners = (CACornerMask)corners;
+    } else {
+        UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:corners cornerRadii:CGSizeMake(radius, radius)];
+        CAShapeLayer *shapeLayer = [[CAShapeLayer alloc] init];
+        shapeLayer.frame = self.bounds;
+        shapeLayer.path = maskPath.CGPath;
+        self.layer.mask = shapeLayer;
+    }
+}
+
 - (void)tf_removeAllSubviews {
     [self.subviews enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         [obj removeFromSuperview];
@@ -103,7 +117,7 @@
 }
 
 - (UIViewController *)tf_getCurrentViewController {
-    
+
     UIResponder * next = [self nextResponder];
     while (next != nil) {
         if ([next isKindOfClass:[UIViewController class]]) {

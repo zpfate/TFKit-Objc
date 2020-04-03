@@ -29,6 +29,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// y轴中心
 @property (nonatomic, assign) CGFloat tf_centerY;
 
+/// 设置指定位置的圆角
+/// @param corners 圆角位置
+/// @param radius 圆角值
+- (void)tf_setCorners:(UIRectCorner)corners radius:(CGFloat)radius;
+
 /// 移除所有子视图
 - (void)tf_removeAllSubviews;
 

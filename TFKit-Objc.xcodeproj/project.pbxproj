@@ -102,11 +102,11 @@
 		5B2AF92523287B3B006FC66F /* TFKit-Objc */ = {
 			isa = PBXGroup;
 			children = (
-				5B2AF93C23287EF0006FC66F /* TFKit-Objc */,
 				5B2AF92623287B3B006FC66F /* AppDelegate.h */,
 				5B2AF92723287B3B006FC66F /* AppDelegate.m */,
 				5B2AF92923287B3B006FC66F /* ViewController.h */,
 				5B2AF92A23287B3B006FC66F /* ViewController.m */,
+				5B2AF93C23287EF0006FC66F /* TFKit-Objc */,
 				5B2AF92C23287B3B006FC66F /* Main.storyboard */,
 				5B2AF92F23287B3C006FC66F /* Assets.xcassets */,
 				5B2AF93123287B3C006FC66F /* LaunchScreen.storyboard */,

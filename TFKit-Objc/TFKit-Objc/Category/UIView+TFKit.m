@@ -96,7 +96,6 @@
     
 }
 
-/// 网传该方法性能差
 - (void)tf_setCorners:(UIRectCorner)corners radius:(CGFloat)radius {
     if (@available(iOS 11.0, *)) {
         self.layer.cornerRadius = radius;

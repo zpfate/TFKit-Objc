@@ -1,16 +1,13 @@
 //
-//  TF_ConfigHeader.h
+//  TF_Macros_h
 //  TFKit-OC
 //
 //  Created by Twisted Fate on 2019/7/31.
 //  Copyright © 2019 TwistedFate. All rights reserved.
 //
 
-#ifndef TF_ConfigHeader_h
-#define TF_ConfigHeader_h
-
-
-
+#ifndef TF_Macros_h
+#define TF_Macros_h
 
 // UI相关
 #define kLightGrayColor [UIColor tf_colorWithHexString:@"f0f0f0"] // 页面背景

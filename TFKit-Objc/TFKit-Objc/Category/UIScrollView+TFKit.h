@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIScrollView (TFKit)
 
+- (void)tf_scrollToBottom:(BOOL)animated;
+
 @end
 
 

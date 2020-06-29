@@ -126,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				5B2AF95823287EF0006FC66F /* TFKit-Objc.h */,
+				5B2AF93D23287EF0006FC66F /* TF_Macros.h */,
 				5B2AF93E23287EF0006FC66F /* Category */,
 				5B2AF94F23287EF0006FC66F /* BaseClass */,
 				5B2AF95923287EF0006FC66F /* Utils */,
@@ -180,7 +181,6 @@
 		5B2AF95923287EF0006FC66F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				5B2AF93D23287EF0006FC66F /* TF_Macros.h */,
 				5B2AF95A23287EF0006FC66F /* TF_FileUtils.h */,
 				5B2AF95B23287EF0006FC66F /* TF_FileUtils.m */,
 			);

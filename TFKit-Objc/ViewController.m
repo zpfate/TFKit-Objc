@@ -20,7 +20,7 @@
     
     UIView  *view = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     view.backgroundColor = [UIColor redColor];
-    [view tf_setCorner:UIRectCornerTopLeft radius:50];
+    [view tf_setCorners:UIRectCornerTopLeft radius:50];
     [self.view addSubview:view];
     
 }

@@ -11,6 +11,14 @@
 
 @implementation UIScrollView (TFKit)
 
+- (void)tf_scrollToBottom:(BOOL)animated {
+    
+    CGFloat offset = self.contentSize.height - self.frame.size.height;
+    if (offset > 0) {
+        [self setContentOffset:CGPointMake(0, offset) animated:animated];
+    }
+}
+
 @end
 
 @implementation UITableViewCell (TFKit)

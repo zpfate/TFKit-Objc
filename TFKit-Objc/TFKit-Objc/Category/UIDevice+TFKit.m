@@ -11,16 +11,12 @@
 @implementation UIDevice (TFKit)
 
 + (BOOL)tf_isiPhoneX {
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
-        // 获取屏幕的宽度和高度，取较大一方判断是否为 812.0 或 896.0
-        CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
-        CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
-        CGFloat maxLength = screenWidth > screenHeight ? screenWidth : screenHeight;
-        if (maxLength == 812.0f || maxLength == 896.0f) {
-            return YES;
-        }
+    CGFloat bottom = 0;
+    if (@available(iOS 11.0, *)) {
+        bottom =  [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom;
     }
-    return NO;
+    BOOL isPhoneX = bottom > 0 ? YES : NO;
+    return isPhoneX;
 }
 
 + (void)tf_setOrientation:(UIInterfaceOrientation)orientation {

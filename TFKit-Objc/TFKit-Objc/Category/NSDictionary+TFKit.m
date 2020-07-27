@@ -10,7 +10,6 @@
 
 @implementation NSDictionary (TFKit)
 
-
 - (NSString *)tf_stringForKey:(NSString *)key {
     
     id object = [self objectForKey:key];

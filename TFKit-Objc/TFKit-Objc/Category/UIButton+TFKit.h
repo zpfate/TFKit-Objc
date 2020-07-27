@@ -14,6 +14,8 @@ typedef void(^TFClickActionBlock)(void);
 
 @interface UIButton (TFKit)
 
+@property (nonatomic, copy) TFClickActionBlock clickAction;
+
 /// 创建Button
 /// @param frame 布局位置
 /// @param title 标题
@@ -31,5 +33,4 @@ typedef void(^TFClickActionBlock)(void);
 + (UIButton *)tf_buttonWithFrame:(CGRect)frame imageName:(NSString *)imageName selectImageName:(NSString *)selectImageName clickAction:(TFClickActionBlock)clickAction;
 
 @end
-
 NS_ASSUME_NONNULL_END

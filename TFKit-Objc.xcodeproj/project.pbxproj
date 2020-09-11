@@ -32,6 +32,10 @@
 		5B2AF96823287EF0006FC66F /* TF_FileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF95B23287EF0006FC66F /* TF_FileUtils.m */; };
 		5B80BE472428948E00E50009 /* UIScrollView+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B80BE462428948E00E50009 /* UIScrollView+TFKit.m */; };
 		5BAF3DED2458050500547444 /* TF_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF3DEC2458050500547444 /* TF_ViewController.m */; };
+
+		5BAF3DF02458080700547444 /* UIButton+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF3DEF2458080700547444 /* UIButton+TFKit.m */; };
+		5BE6D23B24A9D68A0027518A /* UIImage+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6D23A24A9D68A0027518A /* UIImage+TFKit.m */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +89,12 @@
 		5B80BE462428948E00E50009 /* UIScrollView+TFKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TFKit.m"; sourceTree = "<group>"; };
 		5BAF3DEB2458050500547444 /* TF_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TF_ViewController.h; sourceTree = "<group>"; };
 		5BAF3DEC2458050500547444 /* TF_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TF_ViewController.m; sourceTree = "<group>"; };
+
+		5BAF3DEE2458080700547444 /* UIButton+TFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TFKit.h"; sourceTree = "<group>"; };
+		5BAF3DEF2458080700547444 /* UIButton+TFKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TFKit.m"; sourceTree = "<group>"; };
+		5BE6D23924A9D68A0027518A /* UIImage+TFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+TFKit.h"; sourceTree = "<group>"; };
+		5BE6D23A24A9D68A0027518A /* UIImage+TFKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TFKit.m"; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +165,8 @@
 				5B2AF93F23287EF0006FC66F /* UIColor+TFKit.m */,
 				5B2AF94D23287EF0006FC66F /* UIDevice+TFKit.h */,
 				5B2AF94523287EF0006FC66F /* UIDevice+TFKit.m */,
+				5BE6D23924A9D68A0027518A /* UIImage+TFKit.h */,
+				5BE6D23A24A9D68A0027518A /* UIImage+TFKit.m */,
 				5B2AF94923287EF0006FC66F /* UINavigationController+TFKit.h */,
 				5B2AF94223287EF0006FC66F /* UINavigationController+TFKit.m */,
 				5B2AF94B23287EF0006FC66F /* UIView+TFKit.h */,
@@ -289,6 +301,7 @@
 				5B17AD5024CF0CD700BDA1A8 /* UIImageView+TFKit.m in Sources */,
 				5B2AF95F23287EF0006FC66F /* UINavigationController+TFKit.m in Sources */,
 				5B80BE472428948E00E50009 /* UIScrollView+TFKit.m in Sources */,
+				5BE6D23B24A9D68A0027518A /* UIImage+TFKit.m in Sources */,
 				5B2AF93623287B3C006FC66F /* main.m in Sources */,
 				5B2AF96023287EF0006FC66F /* UIDevice+TFKit.m in Sources */,
 				5B17AD4D24CF0C1E00BDA1A8 /* UITextField+TFKit.m in Sources */,

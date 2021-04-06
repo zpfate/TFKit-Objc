@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TF_ViewController : UIViewController
 
+- (void)setupViews;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -7,14 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TF_Macros.h"
 NS_ASSUME_NONNULL_BEGIN
-
-typedef void(^TFClickActionBlock)(void);
 
 @interface UIButton (TFKit)
 
-@property (nonatomic, copy) TFClickActionBlock clickAction;
+/// 点击事件
+@property (nonatomic, copy) TFClickAction clickAction;
 
 /// 创建Button
 /// @param frame 布局位置
@@ -22,15 +21,14 @@ typedef void(^TFClickActionBlock)(void);
 /// @param titleColor 标题字体颜色
 /// @param font 标题字体大小
 /// @param clickAction 点击回调
-+ (UIButton *)tf_buttonWithFrame:(CGRect)frame title:(NSString *)title titleColor:(UIColor *)titleColor font:(UIFont *)font clickAction:(TFClickActionBlock)clickAction;
-
++ (UIButton *)tf_buttonWithFrame:(CGRect)frame title:(NSString *)title titleColor:(UIColor *)titleColor font:(UIFont *)font clickAction:(TFClickAction)clickAction;
 
 /// 创建Button
 /// @param frame 布局位置
 /// @param imageName 正常图片
 /// @param selectImageName 选中图片
 /// @param clickAction 点击回调
-+ (UIButton *)tf_buttonWithFrame:(CGRect)frame imageName:(NSString *)imageName selectImageName:(NSString *)selectImageName clickAction:(TFClickActionBlock)clickAction;
++ (UIButton *)tf_buttonWithFrame:(CGRect)frame imageName:(NSString *)imageName selectImageName:(NSString *)selectImageName clickAction:(TFClickAction)clickAction;
 
 @end
 NS_ASSUME_NONNULL_END

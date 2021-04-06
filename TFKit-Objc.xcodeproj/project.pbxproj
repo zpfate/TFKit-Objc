@@ -32,10 +32,7 @@
 		5B2AF96823287EF0006FC66F /* TF_FileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2AF95B23287EF0006FC66F /* TF_FileUtils.m */; };
 		5B80BE472428948E00E50009 /* UIScrollView+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B80BE462428948E00E50009 /* UIScrollView+TFKit.m */; };
 		5BAF3DED2458050500547444 /* TF_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF3DEC2458050500547444 /* TF_ViewController.m */; };
-
-		5BAF3DF02458080700547444 /* UIButton+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF3DEF2458080700547444 /* UIButton+TFKit.m */; };
 		5BE6D23B24A9D68A0027518A /* UIImage+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6D23A24A9D68A0027518A /* UIImage+TFKit.m */; };
-
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,12 +86,8 @@
 		5B80BE462428948E00E50009 /* UIScrollView+TFKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TFKit.m"; sourceTree = "<group>"; };
 		5BAF3DEB2458050500547444 /* TF_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TF_ViewController.h; sourceTree = "<group>"; };
 		5BAF3DEC2458050500547444 /* TF_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TF_ViewController.m; sourceTree = "<group>"; };
-
-		5BAF3DEE2458080700547444 /* UIButton+TFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TFKit.h"; sourceTree = "<group>"; };
-		5BAF3DEF2458080700547444 /* UIButton+TFKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TFKit.m"; sourceTree = "<group>"; };
 		5BE6D23924A9D68A0027518A /* UIImage+TFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+TFKit.h"; sourceTree = "<group>"; };
 		5BE6D23A24A9D68A0027518A /* UIImage+TFKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TFKit.m"; sourceTree = "<group>"; };
-
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				5B2AF95823287EF0006FC66F /* TFKit-Objc.h */,
+				5B2AF93D23287EF0006FC66F /* TF_Macros.h */,
 				5B2AF93E23287EF0006FC66F /* Category */,
 				5B2AF94F23287EF0006FC66F /* BaseClass */,
 				5B2AF95923287EF0006FC66F /* Utils */,
@@ -207,7 +201,6 @@
 		5B2AF95923287EF0006FC66F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				5B2AF93D23287EF0006FC66F /* TF_Macros.h */,
 				5B2AF95A23287EF0006FC66F /* TF_FileUtils.h */,
 				5B2AF95B23287EF0006FC66F /* TF_FileUtils.m */,
 			);

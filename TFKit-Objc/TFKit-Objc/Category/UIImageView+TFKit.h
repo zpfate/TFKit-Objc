@@ -7,12 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TF_Macros.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImageView (TFKit)
 
-+ (UIImageView *)tf_imageViewWithFrame:(CGRect)frame imageName:(NSString *)name;
+@property (nonatomic, copy) TFClickAction clickAction;
+
+
+/// 创建imageView
+/// @param frame 布局frame
+/// @param imageName 图片名
++ (UIImageView *)tf_imageViewWithFrame:(CGRect)frame imageName:(NSString *)imageName;
 
 @end
 

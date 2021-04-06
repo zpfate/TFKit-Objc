@@ -13,12 +13,12 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        [self initSubviews];
+        [self setupViews];
     }
     return self;
 }
 
-- (void)initSubviews {
+- (void)setupViews {
     
 }
 

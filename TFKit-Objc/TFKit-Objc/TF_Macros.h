@@ -43,9 +43,10 @@
 
 
 // Block
+typedef void (^TFClickAction)(void);
 typedef void (^BoolBlock)(BOOL flag, NSError *error);
 typedef void (^ErrorBlock)(NSError *error);
-typedef void (^ArrayBlock)(NSMutableArray *models, NSError *error);
+typedef void (^ArrayBlock)(NSMutableArray *arr, NSError *error);
 
 // refresh type
 typedef NS_ENUM(NSUInteger, TF_DataLoadingType) {

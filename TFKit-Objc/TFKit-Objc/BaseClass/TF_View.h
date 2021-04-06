@@ -10,6 +10,6 @@
 
 @interface TF_View : UIView
 
-- (void)initSubviews;
+- (void)setupViews;
 
 @end

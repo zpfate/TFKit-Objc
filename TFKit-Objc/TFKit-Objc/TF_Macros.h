@@ -23,10 +23,11 @@
 #define kNavigationBarColor [UIColor tf_colorWithHexString:@"008CE9"]
 
 
-#define iPhoneX [UIDevice tf_isiPhoneX]
-#define kNavigationBarHeight ((iPhoneX) ? (24.f+64.f) : 64.f)
-#define kStatusBarHeight ((iPhoneX) ? (20.f+24.f) : 20.f)
-#define kTabbarHeight ((iPhoneX) ? 83.f : 49.f)
+#define is_iPhoneX [UIDevice tf_isiPhoneX]
+#define kNavigationBarHeight ((is_iPhoneX) ? (24.f+64.f) : 64.f)
+#define kStatusBarHeight ((is_iPhoneX) ? (20.f+24.f) : 20.f)
+#define kTabbarHeight ((is_iPhoneX) ? 83.f : 49.f)
+#define kBottomSafeAreaHeight (is_iPhoneX ? (34.0):(0))
 
 
 #define IsNilOrNull(_ref)   (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]))

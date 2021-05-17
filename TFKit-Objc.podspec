@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TFKit-Objc"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "iOS开发中一些常用的基类与类目工具."
 
   # This description is used to generate tags and improve search results.

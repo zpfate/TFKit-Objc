@@ -7,12 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TF_Macros.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 #define TFDefaultManager [NSFileManager defaultManager]
-
-typedef void (^BoolBlock)(BOOL flag, NSError *error);
 
 @interface TF_FileUtils : NSObject
 

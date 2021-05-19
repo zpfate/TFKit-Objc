@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
 
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "TFKit-Objc/*.{h}"
+  s.public_header_files = "TFKit-Objc/TFKit-Objc/*.{h}"
 
  
 

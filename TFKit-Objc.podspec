@@ -92,23 +92,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "TFKit-Objc/TFKit-Objc/*"
   
-  s.subspec 'Category' do |ss|
-  ss.source_files = 'TFKit-Objc/TFKit-Objc/Category/*'
-  end
-
-  s.subspec 'BaseClass' do |ss|
-  ss.source_files = 'TFKit-Objc/TFKit-Objc/BaseClass/*'
-  end
-
-  s.subspec 'Utils' do |ss|
-  ss.source_files = 'TFKit-Objc/TFKit-Objc/Utils/*'
-  end
-
   # s.exclude_files = "Classes/Exclude"
-
-  s.public_header_files = "TFKit-Objc/TFKit-Objc/*.{h}"
-
- 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

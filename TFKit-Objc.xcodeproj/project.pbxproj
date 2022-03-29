@@ -33,6 +33,7 @@
 		5B80BE472428948E00E50009 /* UIScrollView+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B80BE462428948E00E50009 /* UIScrollView+TFKit.m */; };
 		5BAF3DED2458050500547444 /* TF_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF3DEC2458050500547444 /* TF_ViewController.m */; };
 		5BE6D23B24A9D68A0027518A /* UIImage+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6D23A24A9D68A0027518A /* UIImage+TFKit.m */; };
+		5BFE857727F292E800C6BA26 /* NSMutableArray+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFE857627F292E800C6BA26 /* NSMutableArray+TFKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,8 @@
 		5BAF3DEC2458050500547444 /* TF_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TF_ViewController.m; sourceTree = "<group>"; };
 		5BE6D23924A9D68A0027518A /* UIImage+TFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+TFKit.h"; sourceTree = "<group>"; };
 		5BE6D23A24A9D68A0027518A /* UIImage+TFKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TFKit.m"; sourceTree = "<group>"; };
+		5BFE857527F292E800C6BA26 /* NSMutableArray+TFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+TFKit.h"; sourceTree = "<group>"; };
+		5BFE857627F292E800C6BA26 /* NSMutableArray+TFKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+TFKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,8 @@
 				5B2AF94023287EF0006FC66F /* NSData+TFKit.m */,
 				5B2AF94323287EF0006FC66F /* NSDictionary+TFKit.h */,
 				5B2AF94823287EF0006FC66F /* NSDictionary+TFKit.m */,
+				5BFE857527F292E800C6BA26 /* NSMutableArray+TFKit.h */,
+				5BFE857627F292E800C6BA26 /* NSMutableArray+TFKit.m */,
 				5B2AF94623287EF0006FC66F /* NSString+TFKit.h */,
 				5B2AF94C23287EF0006FC66F /* NSString+TFKit.m */,
 				5B2AF94723287EF0006FC66F /* UIColor+TFKit.h */,
@@ -285,6 +290,7 @@
 				5BAF3DED2458050500547444 /* TF_ViewController.m in Sources */,
 				5B2AF96523287EF0006FC66F /* TF_NavigationViewController.m in Sources */,
 				5B2AF95C23287EF0006FC66F /* UIColor+TFKit.m in Sources */,
+				5BFE857727F292E800C6BA26 /* NSMutableArray+TFKit.m in Sources */,
 				5B2AF96623287EF0006FC66F /* TF_TextView.m in Sources */,
 				5B2AF96123287EF0006FC66F /* NSDictionary+TFKit.m in Sources */,
 				5B2AF96723287EF0006FC66F /* TF_View.m in Sources */,

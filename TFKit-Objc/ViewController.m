@@ -23,6 +23,17 @@
     [view tf_setCorners:UIRectCornerTopLeft radius:50];
     [self.view addSubview:view];
     
+    
+    NSMutableArray *arr = [NSMutableArray array];
+    [arr addObject:@"java"];
+//    [arr addObject:nil];
+    
+    NSDictionary *dict = [NSDictionary dictionary];
+    NSString *key = nil;
+    NSString *value = dict[key];
+    NSLog(@"value = %@", value);
+    
+    
 }
 
 
